@@ -2,6 +2,7 @@
 import 'package:pdtask/splash_screen.dart';
 import 'package:pdtask/startup.dart';
 import 'package:flutter/material.dart';
+import 'package:pdtask/startup_3.dart';
 
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: StartUp(),
+      home: Startup3(),
     );
   }
 }
