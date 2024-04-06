@@ -160,170 +160,171 @@ class StartUp extends StatelessWidget {
           Positioned(
             left: 30,
             top: 520,
-            child: Container(
-              width: MediaQuery.of(context).size.width - 60,
-              height: 330,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.only(right: 10),
-                      width: 261,
-                      height: 330,
-                      decoration: ShapeDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment(-0.20, -0.98),
-                          end: Alignment(0.2, 0.98),
-                          colors: [Color(0xFF7CA4E8), Color(0xFF517CCD)],
-                        ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        shadows: [
-                          BoxShadow(
-                            color: Color(0x336392E8),
-                            blurRadius: 16,
-                            offset: Offset(0, 8),
-                            spreadRadius: 0,
-                          ),
-                          BoxShadow(
-                            color: Color(0x336190E8),
-                            blurRadius: 20,
-                            offset: Offset(0, 12),
-                            spreadRadius: 0,
-                          )
-                        ],
-                      ),
-                      child: Stack(
-                        children: [
-                          Positioned(
-                            right: 30,
-                            bottom: 80,
-                            child: Image.asset('assets/images/Billy 31.png'),
-                          ),
-                          Positioned(
-                            left: 180,
-                            top: 5,
-                            child: Image.asset('assets/images/circle.png'),
-                          ),
-                          Positioned(
-                            left: 0,
-                            right: 30,
-                            bottom: 80,
-                            child: Center(
-                              child: Text(
-                                'Growing Startup without ',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18,
-                                  fontFamily: 'Montserrat',
-                                  fontWeight: FontWeight.w700,
-                                  height: 0.09,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            left: 0,
-                            right: 138,
-                            bottom: 50,
-                            child: Center(
-                              child: Text(
-                                'Sales Team',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18,
-                                  fontFamily: 'Montserrat',
-                                  fontWeight: FontWeight.w700,
-                                  height: 0.09,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  width: 261,
+                  height: 330,
+                  decoration: ShapeDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment(-0.20, -0.98),
+                      end: Alignment(0.2, 0.98),
+                      colors: [Color(0xFF7CA4E8), Color(0xFF517CCD)],
                     ),
-                    Container(
-                      margin: EdgeInsets.only(right: 10),
-                      width: 261,
-                      height: 330,
-                      decoration: ShapeDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment(-0.20, -0.98),
-                          end: Alignment(0.2, 0.98),
-                          colors: [Color(0xFF7CA4E8), Color(0xFF517CCD)],
-                        ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        shadows: [
-                          BoxShadow(
-                            color: Color(0x336392E8),
-                            blurRadius: 16,
-                            offset: Offset(0, 8),
-                            spreadRadius: 0,
-                          ),
-                          BoxShadow(
-                            color: Color(0x336190E8),
-                            blurRadius: 20,
-                            offset: Offset(0, 12),
-                            spreadRadius: 0,
-                          )
-                        ],
-                      ),
-                      child: Stack(
-                        children: [
-                          Positioned(
-                            right: 30,
-                            bottom: 80,
-                            child: Image.asset('assets/images/Billy 65.png'),
-                          ),
-                          Positioned(
-                            left: 180,
-                            top: 5,
-                            child: Image.asset('assets/images/circle.png'),
-                          ),
-                          Positioned(
-                            left: 0,
-                            right: 30,
-                            bottom: 80,
-                            child: Center(
-                              child: Text(
-                                'Find Powerful Tips for',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18,
-                                  fontFamily: 'Montserrat',
-                                  fontWeight: FontWeight.w700,
-                                  height: 0.09,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            left: 0,
-                            right: 138,
-                            bottom: 50,
-                            child: Center(
-                              child: Text(
-                                'Wealth & Success',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18,
-                                  fontFamily: 'Montserrat',
-                                  fontWeight: FontWeight.w700,
-                                  height: 0.09,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
                     ),
-                  ],
+                    shadows: [
+                      BoxShadow(
+                        color: Color(0x336392E8),
+                        blurRadius: 16,
+                        offset: Offset(0, 8),
+                        spreadRadius: 0,
+                      ),
+                      BoxShadow(
+                        color: Color(0x336190E8),
+                        blurRadius: 20,
+                        offset: Offset(0, 12),
+                        spreadRadius: 0,
+                      )
+                    ],
+                  ),
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        right: 30,
+                        bottom: 80,
+                        child: Image.asset('assets/images/Billy 31.png'),
+                      ),
+                      Positioned(
+                        left: 180,
+                        top: 5,
+                        child: Image.asset('assets/images/circle.png'),
+                      ),
+                      Positioned(
+                        left: 0,
+                        right: 30,
+                        bottom: 80,
+                        child: Center(
+                          child: Text(
+                            'Growing Startup without ',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.w700,
+                              height: 0.09,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 0,
+                        right: 138,
+                        bottom: 50,
+                        child: Center(
+                          child: Text(
+                            'Sales Team',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.w700,
+                              height: 0.09,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+                // Horizontally scrollable container
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+                        margin: EdgeInsets.only(left: 30),
+                        width: 261,
+                        height: 330,
+                        decoration: ShapeDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment(-0.20, -0.98),
+                            end: Alignment(0.2, 0.98),
+                            colors: [Color(0xFF7CA4E8), Color(0xFF517CCD)],
+                          ),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          shadows: [
+                            BoxShadow(
+                              color: Color(0x336392E8),
+                              blurRadius: 16,
+                              offset: Offset(0, 8),
+                              spreadRadius: 0,
+                            ),
+                            BoxShadow(
+                              color: Color(0x336190E8),
+                              blurRadius: 20,
+                              offset: Offset(0, 12),
+                              spreadRadius: 0,
+                            )
+                          ],
+                        ),
+                        child: Stack(
+                          children: [
+                            Positioned(
+                              right: 30,
+                              bottom: 80,
+                              child: Image.asset('assets/images/Billy 65.png'),
+                            ),
+                            Positioned(
+                              left: 180,
+                              top: 5,
+                              child: Image.asset('assets/images/circle.png'),
+                            ),
+                            Positioned(
+                              left: 0,
+                              right: 30,
+                              bottom: 80,
+                              child: Center(
+                                child: Text(
+                                  'Find Powerful Tips for',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 18,
+                                    fontFamily: 'Montserrat',
+                                    fontWeight: FontWeight.w700,
+                                    height: 0.09,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Positioned(
+                              left: 0,
+                              right: 138,
+                              bottom: 50,
+                              child: Center(
+                                child: Text(
+                                  'Wealth & Success',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 18,
+                                    fontFamily: 'Montserrat',
+                                    fontWeight: FontWeight.w700,
+                                    height: 0.09,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
         ],
