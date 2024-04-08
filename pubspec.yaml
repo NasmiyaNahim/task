@@ -74,6 +74,12 @@ flutter:
     - assets/images/Wifi.png
     - assets/images/feather_arrow-left.png
     - assets/images/bx_bx-menu-alt-left.png
+    - assets/images/avator.png
+    - assets/images/test.png
+    - assets/images/Rectangle 25.png
+    - assets/images/Ellipse 3 (1).png
+    - assets/images/Ellipse 3 (2).png
+    - assets/images/feather_sliders.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
