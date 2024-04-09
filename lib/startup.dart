@@ -243,7 +243,7 @@ class StartUp extends StatelessWidget {
                         Positioned(
                           left: 13,
                           top: 295,
-                          child: Image.asset('assets/images/Ellipse 3.png'),
+                          child: Image.asset('assets/images/Ellipse 3 (1).png'),
                         ),
                          Positioned(
                          left: 50,
@@ -340,7 +340,7 @@ class StartUp extends StatelessWidget {
                         Positioned(
                           left: 25,
                           top: 290,
-                          child: Image.asset('assets/images/Ellipse 3.png'),
+                          child: Image.asset('assets/images/Ellipse 3 (2).png'),
                         ),
                          Positioned(
                          left: 55,
