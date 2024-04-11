@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:pdtask/startup_3.dart';
 import 'education2.dart'; // Import the education2 page
 
 class education1 extends StatelessWidget {
+  const education1({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -183,7 +185,7 @@ class education1 extends StatelessWidget {
                               // Navigate to education2 page when "Get Started" button is pressed
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => education2()),
+                                MaterialPageRoute(builder: (context) => Startup3()),
                               );
                             },
                             child: Center(

@@ -76,7 +76,7 @@ class StartupPageContent extends StatelessWidget {
                 onTap: toggleMenu,
                 child: Container(
                   width: 40,
-                  height: 32,
+                  height: 18,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
@@ -128,7 +128,7 @@ class StartupPageContent extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: 100,
+          height: 60,
           child: Padding(
             padding: const EdgeInsets.only(left: 20, top: 40),
             child: Text(
@@ -150,7 +150,7 @@ class StartupPageContent extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 15),
                 child: Container(
                   width: 305,
-                  height: 48,
+                  height: 30,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   decoration: BoxDecoration(
                     color: Colors.white,
@@ -242,7 +242,7 @@ class StartupPageContent extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 40),
+          SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -745,7 +745,7 @@ class StartupPageContent extends StatelessWidget {
                           height: 44,
                           decoration: ShapeDecoration(
                             image: DecorationImage(
-                              image: AssetImage("assets/images/ellipse 3.png"),
+                              image: AssetImage("assets/images/ellipse 3 (1).png"),
                               fit: BoxFit.fill,
                             ),
                             shape: CircleBorder(),
@@ -817,7 +817,7 @@ class StartupPageContent extends StatelessWidget {
                         height: 44,
                         decoration: ShapeDecoration(
                           image: DecorationImage(
-                            image: AssetImage("assets/images/ellipse 3.png"),
+                            image: AssetImage("assets/images/ellipse 3 (2).png"),
                             fit: BoxFit.fill,
                           ),
                           shape: CircleBorder(),

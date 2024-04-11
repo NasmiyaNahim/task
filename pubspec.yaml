@@ -81,6 +81,7 @@ flutter:
     - assets/images/Ellipse 3 (2).png
     - assets/images/feather_sliders.png
     - assets/images/ant-design_play-circle-filled (1).png
+    - assets/images/avatar.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
