@@ -1,4 +1,6 @@
+import 'package:pdtask/education1.dart';
 import 'package:flutter/material.dart';
+//import 'package:pdtask/education1.dart';
 
 class StartUp extends StatelessWidget {
   const StartUp({Key? key}) : super(key: key);
@@ -37,7 +39,10 @@ class StartUp extends StatelessWidget {
             left: 20,
             top: 60,
             child: Container(
-              child: Image.asset("assets/images/feather_arrow-left.png"),
+              child: GestureDetector(
+          onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const education1()));
+          },child: Image.asset("assets/images/feather_arrow-left.png")),
             ),
           ),
           Positioned(
@@ -243,7 +248,7 @@ class StartUp extends StatelessWidget {
                         Positioned(
                           left: 13,
                           top: 295,
-                          child: Image.asset('assets/images/Ellipse 3 (1).png'),
+                          child: Image.asset('assets/images/Ellipse 3 (2).png'),
                         ),
                          Positioned(
                          left: 50,
